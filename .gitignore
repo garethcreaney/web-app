@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+public/css/
+public/js/
+
+**/.DS_Store
+/.vscode
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+.env
+
+node_modules
+migrations/.migrate
+public/fonts/bootstrap/glyphicons-halflings-regular.svg

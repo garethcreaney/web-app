@@ -1,0 +1,16 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start-dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-hbs": "github:barc/express-hbs",
+    "express-validator": "^4.2.1",
+    "express-winston": "^2.0.0",
+    "winston": "^2.3.0"
+  }
+}
