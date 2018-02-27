@@ -15,6 +15,15 @@ app.get('/', function(req,res) {
 	res.render('home');  //respond with homepage
 });
 
+app.get('/api', function(req,res) {
+    // get some info form db
+    const test = {
+        name: 'Conaire',
+        age: 35
+    }
+    res.send(test);
+});
+
 app.use(function(req,res){  //express catch middleware if page doesn't exist
 	res.status(404);  //respond with status code
 	res.render('404'); //respond with 404 page
