@@ -12,7 +12,7 @@ app.set('views', __dirname + '/views');
 app.set('port', process.env.PORT || 3000);  //sets port 3000
 
 app.get('/', function(req,res) {
-    const t = 1; 
+    const t = 1;; 
 	res.render('home');  //respond with homepage
 });
 
