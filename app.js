@@ -21,6 +21,7 @@ app.get('/api', function(req,res) {
         name: 'Conaire',
         age: 35
     }
+    console.log(test);
     res.send(test);
 });
 
